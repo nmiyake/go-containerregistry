@@ -17,8 +17,8 @@ package crane
 import (
 	"fmt"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 // Tag adds tag to the remote img.

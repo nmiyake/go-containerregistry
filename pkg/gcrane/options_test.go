@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
 )
 
 func TestOptions(t *testing.T) {

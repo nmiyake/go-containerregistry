@@ -19,8 +19,8 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane/cmd"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/cmd/crane/cmd"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
 )
 
 func init() {

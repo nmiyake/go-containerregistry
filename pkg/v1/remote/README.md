@@ -14,9 +14,9 @@ authentication handshake and structured errors.
 package main
 
 import (
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func main() {

@@ -20,11 +20,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/registry"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
 )
 
 func TestPushAndPullContainer(t *testing.T) {

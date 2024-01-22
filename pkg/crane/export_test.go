@@ -18,10 +18,10 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/static"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/empty"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/static"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 func TestExport(t *testing.T) {

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane/cmd"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/gcrane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/google"
+	"github.com/nmiyake/go-containerregistry/cmd/crane/cmd"
+	"github.com/nmiyake/go-containerregistry/pkg/gcrane"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/google"
 	"github.com/spf13/cobra"
 )
 

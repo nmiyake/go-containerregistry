@@ -19,8 +19,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/cache"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/cache"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
 )
 
 func ExampleImage() {

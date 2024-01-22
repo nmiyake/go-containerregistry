@@ -18,7 +18,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
 )
 
 // WithTransport is a functional option for overriding the default transport

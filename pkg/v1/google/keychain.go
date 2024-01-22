@@ -18,8 +18,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
 )
 
 // Keychain exports an instance of the google Keychain.

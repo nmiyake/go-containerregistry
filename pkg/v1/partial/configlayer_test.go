@@ -19,8 +19,8 @@ import (
 	"io"
 	"testing"
 
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 type testUIC struct {

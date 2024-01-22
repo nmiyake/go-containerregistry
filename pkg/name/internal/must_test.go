@@ -20,7 +20,7 @@ package internal
 import (
 	"strings"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
 )
 
 // This shouldn't compile.

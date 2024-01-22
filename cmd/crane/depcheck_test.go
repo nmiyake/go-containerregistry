@@ -17,7 +17,7 @@ package main
 import (
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/depcheck"
+	"github.com/nmiyake/go-containerregistry/internal/depcheck"
 )
 
 func TestDeps(t *testing.T) {
@@ -25,8 +25,8 @@ func TestDeps(t *testing.T) {
 		t.Skip("skipping slow depcheck")
 	}
 	depcheck.AssertNoDependency(t, map[string][]string{
-		"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane": {
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/daemon",
+		"github.com/nmiyake/go-containerregistry/cmd/crane": {
+			"github.com/nmiyake/go-containerregistry/pkg/v1/daemon",
 		},
 	})
 }

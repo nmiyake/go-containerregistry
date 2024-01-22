@@ -18,11 +18,11 @@ import (
 	"context"
 	"io"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/redact"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/verify"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/internal/redact"
+	"github.com/nmiyake/go-containerregistry/internal/verify"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 // remoteImagelayer implements partial.CompressedLayer

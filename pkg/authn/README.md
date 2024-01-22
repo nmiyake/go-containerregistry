@@ -20,9 +20,9 @@ package main
 import (
 	"fmt"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func main() {
@@ -62,8 +62,8 @@ import (
 	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
 	"github.com/awslabs/amazon-ecr-credential-helper/ecr-login/api"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func main() {
@@ -83,8 +83,8 @@ Likewise, you can emulate [Azure's ACR `docker-credential-acr-env` credential he
 import (
 	"github.com/chrismellard/docker-credential-acr-env/pkg/credhelper"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func main() {

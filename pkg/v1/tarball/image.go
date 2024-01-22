@@ -26,12 +26,12 @@ import (
 	"path/filepath"
 	"sync"
 
-	comp "github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compression"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/compression"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	comp "github.com/nmiyake/go-containerregistry/internal/compression"
+	"github.com/nmiyake/go-containerregistry/pkg/compression"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 type image struct {

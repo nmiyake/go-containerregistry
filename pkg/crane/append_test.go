@@ -17,10 +17,10 @@ package crane_test
 import (
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/empty"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 func TestAppendWithOCIBaseImage(t *testing.T) {

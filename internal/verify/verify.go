@@ -24,8 +24,8 @@ import (
 	"hash"
 	"io"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/and"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/internal/and"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
 )
 
 // SizeUnknown is a sentinel value to indicate that the expected size is not known.

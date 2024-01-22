@@ -19,10 +19,10 @@ import (
 	"io"
 	"testing"
 
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 func TestImage(t *testing.T) {

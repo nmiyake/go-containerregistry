@@ -21,9 +21,9 @@ import (
 	"strings"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 // Index validates that idx does not violate any invariants of the index format.

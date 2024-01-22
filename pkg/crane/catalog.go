@@ -17,8 +17,8 @@ package crane
 import (
 	"context"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 // Catalog returns the repositories in a registry's catalog.

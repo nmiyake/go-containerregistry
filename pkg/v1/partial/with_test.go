@@ -18,10 +18,10 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 func TestRawConfigFile(t *testing.T) {

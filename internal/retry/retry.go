@@ -21,7 +21,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/retry/wait"
+	"github.com/nmiyake/go-containerregistry/internal/retry/wait"
 )
 
 // Backoff is an alias of our own wait.Backoff to avoid name conflicts with

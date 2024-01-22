@@ -27,9 +27,9 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
 )
 
 func mustParseDuration(t *testing.T, d string) time.Duration {

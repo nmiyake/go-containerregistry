@@ -19,10 +19,10 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/google"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/google"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 // Option is a functional option for gcrane operations.

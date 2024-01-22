@@ -19,16 +19,16 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compare"
-	legacy "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/legacy/tarball"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry/internal/compare"
+	legacy "github.com/nmiyake/go-containerregistry/pkg/legacy/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 // foreignLayer implements both partial.Describable and partial.UncompressedLayer.

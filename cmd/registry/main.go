@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
+	"github.com/nmiyake/go-containerregistry/pkg/registry"
 )
 
 var port = flag.Int("port", 1338, "port to run registry on")

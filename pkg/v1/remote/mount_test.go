@@ -17,9 +17,9 @@ package remote
 import (
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 func TestMountableImage(t *testing.T) {

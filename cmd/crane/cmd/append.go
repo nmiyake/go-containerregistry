@@ -17,13 +17,13 @@ package cmd
 import (
 	"fmt"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/empty"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 	specsv1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/spf13/cobra"
 )

@@ -17,7 +17,7 @@ package registry
 import (
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/depcheck"
+	"github.com/nmiyake/go-containerregistry/internal/depcheck"
 )
 
 func TestDeps(t *testing.T) {
@@ -25,14 +25,14 @@ func TestDeps(t *testing.T) {
 		t.Skip("skipping slow depcheck")
 	}
 	depcheck.AssertOnlyDependencies(t, map[string][]string{
-		"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry": append(
+		"github.com/nmiyake/go-containerregistry/pkg/registry": append(
 			depcheck.StdlibPackages(),
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/httptest",
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1",
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types",
+			"github.com/nmiyake/go-containerregistry/internal/httptest",
+			"github.com/nmiyake/go-containerregistry/pkg/v1",
+			"github.com/nmiyake/go-containerregistry/pkg/v1/types",
 
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/verify",
-			"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/and",
+			"github.com/nmiyake/go-containerregistry/internal/verify",
+			"github.com/nmiyake/go-containerregistry/internal/and",
 		),
 	})
 }

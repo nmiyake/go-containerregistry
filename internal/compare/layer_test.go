@@ -17,8 +17,8 @@ package compare
 import (
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 func TestDifferentLayers(t *testing.T) {

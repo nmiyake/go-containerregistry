@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
 )
 
 // TestKeychain checks that the keychain resolves when $GITHUB_TOKEN is set and

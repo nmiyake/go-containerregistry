@@ -22,15 +22,15 @@ import (
 	"testing"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compare"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry/internal/compare"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/registry"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 // Remote leverages a lot of compressed partials.

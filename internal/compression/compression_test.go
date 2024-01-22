@@ -19,9 +19,9 @@ import (
 	"io"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/and"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/gzip"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/zstd"
+	"github.com/nmiyake/go-containerregistry/internal/and"
+	"github.com/nmiyake/go-containerregistry/internal/gzip"
+	"github.com/nmiyake/go-containerregistry/internal/zstd"
 )
 
 type Compressor = func(rc io.ReadCloser) io.ReadCloser

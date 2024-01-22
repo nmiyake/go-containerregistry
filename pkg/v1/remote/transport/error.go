@@ -21,7 +21,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/redact"
+	"github.com/nmiyake/go-containerregistry/internal/redact"
 )
 
 // Error implements error to support the following error specification:

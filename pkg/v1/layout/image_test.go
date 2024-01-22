@@ -18,10 +18,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 var (

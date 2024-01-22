@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/redact"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/internal/redact"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
 )
 
 func TestLogger(t *testing.T) {

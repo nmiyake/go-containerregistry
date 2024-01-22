@@ -30,7 +30,7 @@ var (
 
 const (
 	defaultUserAgent = "go-containerregistry"
-	moduleName       = "github.com/nmiyake/go-containerregistry-with-validate-fix"
+	moduleName       = "github.com/nmiyake/go-containerregistry"
 )
 
 type userAgentTransport struct {

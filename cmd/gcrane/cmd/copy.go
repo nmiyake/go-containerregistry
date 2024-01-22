@@ -17,7 +17,7 @@ package cmd
 import (
 	"runtime"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/gcrane"
+	"github.com/nmiyake/go-containerregistry/pkg/gcrane"
 	"github.com/spf13/cobra"
 )
 

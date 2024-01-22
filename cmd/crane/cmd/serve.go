@@ -25,7 +25,7 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
+	"github.com/nmiyake/go-containerregistry/pkg/registry"
 )
 
 func NewCmdRegistry() *cobra.Command {

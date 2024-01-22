@@ -19,7 +19,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func TestInsecureOptionTracking(t *testing.T) {

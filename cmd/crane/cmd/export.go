@@ -20,9 +20,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
 	"github.com/spf13/cobra"
 )
 

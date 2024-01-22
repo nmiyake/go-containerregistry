@@ -23,11 +23,11 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/retry"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote/transport"
+	"github.com/nmiyake/go-containerregistry/internal/retry"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote/transport"
 )
 
 // Option is a functional option for remote operations.

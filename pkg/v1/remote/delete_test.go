@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
 )
 
 func TestDelete(t *testing.T) {

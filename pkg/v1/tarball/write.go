@@ -25,9 +25,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
 )
 
 // WriteToFile writes in the compressed format to a tarball, on disk.

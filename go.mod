@@ -1,4 +1,4 @@
-module github.com/nmiyake/go-containerregistry-with-validate-fix
+module github.com/nmiyake/go-containerregistry
 
 go 1.18
 

@@ -14,7 +14,7 @@
 
 package cache
 
-import v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+import v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
 
 // ReadOnly returns a read-only implementation of the given Cache.
 //

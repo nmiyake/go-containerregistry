@@ -20,7 +20,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
 )
 
 func TestLayer(t *testing.T) {

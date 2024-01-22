@@ -17,8 +17,8 @@ package mutate
 import (
 	"fmt"
 
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/empty"
 )
 
 // Rebase returns a new v1.Image where the oldBase in orig is replaced by newBase.

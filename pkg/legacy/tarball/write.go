@@ -23,11 +23,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/legacy"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/legacy"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
 )
 
 // repositoriesTarDescriptor represents the repositories file inside a `docker save` tarball.

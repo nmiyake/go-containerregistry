@@ -27,8 +27,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/verify"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/internal/verify"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
 )
 
 // Returns whether this url should be handled by the blob handler

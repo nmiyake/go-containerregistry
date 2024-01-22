@@ -24,10 +24,10 @@ import (
 	api "github.com/docker/docker/api/types"
 	"github.com/docker/docker/api/types/container"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 type image struct {

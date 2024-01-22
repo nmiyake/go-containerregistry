@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/retry"
+	"github.com/nmiyake/go-containerregistry/internal/retry"
 )
 
 type mockTransport struct {

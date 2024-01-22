@@ -21,7 +21,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
 )
 
 func TestBasicTransport(t *testing.T) {

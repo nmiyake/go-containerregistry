@@ -28,16 +28,16 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/match"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/stream"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/empty"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/match"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/stream"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 func TestExtractWhiteout(t *testing.T) {

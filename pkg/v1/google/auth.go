@@ -22,8 +22,8 @@ import (
 	"os/exec"
 	"time"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
 	"golang.org/x/oauth2"
 	googauth "golang.org/x/oauth2/google"
 )

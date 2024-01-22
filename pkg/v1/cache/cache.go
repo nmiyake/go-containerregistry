@@ -19,9 +19,9 @@ import (
 	"errors"
 	"io"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
 )
 
 // Cache encapsulates methods to interact with cached layers.

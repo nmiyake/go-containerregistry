@@ -22,12 +22,12 @@ import (
 
 	ecr "github.com/awslabs/amazon-ecr-credential-helper/ecr-login"
 	"github.com/chrismellard/docker-credential-acr-env/pkg/credhelper"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane/cmd"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn/github"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/google"
+	"github.com/nmiyake/go-containerregistry/cmd/crane/cmd"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/authn/github"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/google"
 )
 
 var (

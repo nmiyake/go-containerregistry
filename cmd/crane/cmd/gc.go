@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/layout"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/layout"
 	"github.com/spf13/cobra"
 )
 

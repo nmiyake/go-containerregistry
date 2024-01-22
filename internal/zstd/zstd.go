@@ -21,7 +21,7 @@ import (
 	"io"
 
 	"github.com/klauspost/compress/zstd"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/and"
+	"github.com/nmiyake/go-containerregistry/internal/and"
 )
 
 // MagicHeader is the start of zstd files.

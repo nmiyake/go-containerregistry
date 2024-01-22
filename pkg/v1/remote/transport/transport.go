@@ -19,8 +19,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
 )
 
 // New returns a new RoundTripper based on the provided RoundTripper that has been

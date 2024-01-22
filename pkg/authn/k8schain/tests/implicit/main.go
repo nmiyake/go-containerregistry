@@ -19,9 +19,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn/k8schain"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry/pkg/authn/k8schain"
+	"github.com/nmiyake/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/remote"
 )
 
 func main() {

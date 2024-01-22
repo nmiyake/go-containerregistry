@@ -19,11 +19,11 @@ import (
 	"os"
 	"os/signal"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane/cmd"
-	gcmd "github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/gcrane/cmd"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/gcrane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry/cmd/crane/cmd"
+	gcmd "github.com/nmiyake/go-containerregistry/cmd/gcrane/cmd"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/gcrane"
+	"github.com/nmiyake/go-containerregistry/pkg/logs"
 	"github.com/spf13/cobra"
 )
 

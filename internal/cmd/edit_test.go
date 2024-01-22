@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry/pkg/registry"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/random"
 )
 
 func mustRegistry(t *testing.T) (*httptest.Server, string) {

@@ -18,9 +18,9 @@ import (
 	"math/rand"
 	"testing"
 
-	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
-	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
+	v1 "github.com/nmiyake/go-containerregistry/pkg/v1"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry/pkg/v1/validate"
 )
 
 func TestRandomIndex(t *testing.T) {
