@@ -18,7 +18,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/google/go-containerregistry/internal/retry"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/retry"
 )
 
 // Sleep for 0.1 then 0.3 seconds. This should cover networking blips.

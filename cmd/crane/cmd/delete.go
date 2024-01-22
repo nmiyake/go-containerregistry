@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	"github.com/google/go-containerregistry/pkg/crane"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
 	"github.com/spf13/cobra"
 )
 

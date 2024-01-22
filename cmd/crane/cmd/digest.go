@@ -18,8 +18,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
 	"github.com/spf13/cobra"
 )
 

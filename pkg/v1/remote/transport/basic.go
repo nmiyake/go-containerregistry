@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/google/go-containerregistry/pkg/authn"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/authn"
 )
 
 type basicTransport struct {

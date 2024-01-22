@@ -20,9 +20,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/google/go-containerregistry/internal/gzip"
-	"github.com/google/go-containerregistry/internal/zstd"
-	"github.com/google/go-containerregistry/pkg/compression"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/gzip"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/zstd"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/compression"
 )
 
 // Opener represents e.g. opening a file.

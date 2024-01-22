@@ -17,13 +17,13 @@ package partial
 import (
 	"io"
 
-	"github.com/google/go-containerregistry/internal/and"
-	"github.com/google/go-containerregistry/internal/compression"
-	"github.com/google/go-containerregistry/internal/gzip"
-	"github.com/google/go-containerregistry/internal/zstd"
-	comp "github.com/google/go-containerregistry/pkg/compression"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/and"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compression"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/gzip"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/zstd"
+	comp "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/compression"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
 )
 
 // CompressedLayer represents the bare minimum interface a natively

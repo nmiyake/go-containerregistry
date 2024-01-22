@@ -24,8 +24,10 @@ import (
 	"io"
 	"strings"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compression"
+	comp "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/compression"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
 )
 
 // Layer validates that the values return by its methods are consistent with the
@@ -128,21 +130,32 @@ func computeLayer(layer v1.Layer) (*computedLayer, error) {
 	}()
 
 	// Read the bytes through gzip.Reader to compute the DiffID.
-	uncompressed, err := gzip.NewReader(pr)
-	if err != nil {
-		return nil, err
+	var uncompressed io.ReadCloser
+	// if layer content is known to be not compressed, don't wrap in gzip reader
+	if cp, pr, err := compression.PeekCompression(pr); err == nil && cp == comp.None {
+		uncompressed = io.NopCloser(pr)
+	} else {
+		uncompressed, err = gzip.NewReader(pr)
+		if err != nil {
+			return nil, err
+		}
 	}
 	diffider := crypto.SHA256.New()
 	hashUncompressed := io.TeeReader(uncompressed, diffider)
 
-	// Ensure there aren't duplicate file paths.
+	// Ensure there aren't duplicate file paths if content is tar.
+	firstTarEntry := true
 	tarReader := tar.NewReader(hashUncompressed)
 	files := make(map[string]struct{})
 	for {
 		hdr, err := tarReader.Next()
 		if errors.Is(err, io.EOF) {
 			break
+		} else if firstTarEntry && (errors.Is(err, io.ErrUnexpectedEOF) || errors.Is(err, tar.ErrHeader)) {
+			// if the first entry cannot be read, content is not a valid tar
+			break
 		}
+		firstTarEntry = false
 		if err != nil {
 			return nil, err
 		}

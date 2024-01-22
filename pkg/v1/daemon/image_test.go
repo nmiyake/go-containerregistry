@@ -27,10 +27,10 @@ import (
 	api "github.com/docker/docker/api/types/image"
 
 	"github.com/docker/docker/api/types"
-	"github.com/google/go-containerregistry/internal/compare"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compare"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
 )
 
 var imagePath = "../tarball/testdata/test_image_1.tar"

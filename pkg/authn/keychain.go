@@ -23,8 +23,8 @@ import (
 	"github.com/docker/cli/cli/config"
 	"github.com/docker/cli/cli/config/configfile"
 	"github.com/docker/cli/cli/config/types"
-	"github.com/google/go-containerregistry/pkg/name"
 	"github.com/mitchellh/go-homedir"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
 )
 
 // Resource represents a registry or repository that can be authenticated against.

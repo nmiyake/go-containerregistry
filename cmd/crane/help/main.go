@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-containerregistry/cmd/crane/cmd"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/cmd/crane/cmd"
 	"github.com/spf13/cobra"
 	"github.com/spf13/cobra/doc"
 )

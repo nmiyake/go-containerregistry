@@ -18,9 +18,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/google/go-containerregistry/pkg/gcrane"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/v1/google"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/gcrane"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/google"
 	"github.com/spf13/cobra"
 )
 
