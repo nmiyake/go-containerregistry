@@ -16,10 +16,10 @@ package validate
 
 import (
 	"bytes"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
 	"io"
 	"testing"
 )

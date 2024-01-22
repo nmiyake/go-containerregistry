@@ -20,10 +20,10 @@ import (
 	"os"
 	"testing"
 
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
 )
 
 func TestFilesystemCache(t *testing.T) {

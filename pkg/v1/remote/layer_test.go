@@ -20,15 +20,15 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/google/go-containerregistry/internal/compare"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/registry"
-	"github.com/google/go-containerregistry/pkg/v1/empty"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/types"
-	"github.com/google/go-containerregistry/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compare"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/empty"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
 )
 
 func TestRemoteLayer(t *testing.T) {

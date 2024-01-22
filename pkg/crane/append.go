@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-containerregistry/internal/windows"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/mutate"
-	"github.com/google/go-containerregistry/pkg/v1/stream"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/windows"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/mutate"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/stream"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
 )
 
 func isWindows(img v1.Image) (bool, error) {

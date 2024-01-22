@@ -18,12 +18,12 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/google/go-containerregistry/pkg/crane"
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/layout"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/crane"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/layout"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
 	"github.com/spf13/cobra"
 )
 

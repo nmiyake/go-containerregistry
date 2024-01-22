@@ -30,16 +30,16 @@ import (
 	"time"
 
 	"github.com/google/go-cmp/cmp"
-	"github.com/google/go-containerregistry/internal/retry"
-	"github.com/google/go-containerregistry/pkg/logs"
-	"github.com/google/go-containerregistry/pkg/name"
-	"github.com/google/go-containerregistry/pkg/registry"
-	"github.com/google/go-containerregistry/pkg/v1/google"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
-	"github.com/google/go-containerregistry/pkg/v1/random"
-	"github.com/google/go-containerregistry/pkg/v1/remote"
-	"github.com/google/go-containerregistry/pkg/v1/remote/transport"
-	"github.com/google/go-containerregistry/pkg/v1/types"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/retry"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/logs"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/registry"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/google"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/random"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/remote/transport"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/types"
 )
 
 type fakeXCR struct {

@@ -24,10 +24,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/google/go-containerregistry/internal/compression"
-	comp "github.com/google/go-containerregistry/pkg/compression"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/partial"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/internal/compression"
+	comp "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/compression"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/partial"
 )
 
 // Layer validates that the values return by its methods are consistent with the

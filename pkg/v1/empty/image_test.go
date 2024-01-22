@@ -17,7 +17,7 @@ package empty
 import (
 	"testing"
 
-	"github.com/google/go-containerregistry/pkg/v1/validate"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/validate"
 )
 
 func TestImage(t *testing.T) {

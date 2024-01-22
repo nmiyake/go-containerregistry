@@ -18,9 +18,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/google/go-containerregistry/pkg/name"
-	v1 "github.com/google/go-containerregistry/pkg/v1"
-	"github.com/google/go-containerregistry/pkg/v1/tarball"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
+	v1 "github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/v1/tarball"
 )
 
 // Tag adds a tag to an already existent image.

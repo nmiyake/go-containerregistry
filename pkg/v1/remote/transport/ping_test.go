@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
 )
 
 var (

@@ -17,7 +17,7 @@ package transport
 import (
 	"net/http"
 
-	"github.com/google/go-containerregistry/pkg/name"
+	"github.com/nmiyake/go-containerregistry-with-validate-fix/pkg/name"
 )
 
 type schemeTransport struct {
