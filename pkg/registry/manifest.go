@@ -428,6 +428,7 @@ func (m *manifests) handleReferrers(resp http.ResponseWriter, req *http.Request)
 			Config       struct {
 				MediaType string `json:"mediaType"`
 			} `json:"config"`
+			Annotations map[string]string `json:"annotations,omitempty"`
 		}
 		json.Unmarshal(manifest.blob, &imageAsArtifact)
 		artifactType := imageAsArtifact.ArtifactType
@@ -445,7 +446,8 @@ func (m *manifests) handleReferrers(resp http.ResponseWriter, req *http.Request)
 			MediaType:    types.MediaType(manifest.contentType),
 			Size:         int64(len(manifest.blob)),
 			Digest:       h,
-			ArtifactType: artifactType,
+			ArtifactType: imageAsArtifact.Config.MediaType,
+			Annotations:  imageAsArtifact.Annotations,
 		})
 	}
 	msg, _ := json.Marshal(&im)
