@@ -117,7 +117,7 @@ func TestReferrers(t *testing.T) {
 		if err != nil {
 			t.Fatal(err)
 		}
-		leafImg = mutate.ConfigMediaType(leafImg, types.MediaType("application/testing123"))
+		leafImg = mutate.ArtifactType(leafImg, "application/testing123")
 		leafImg = mutate.Subject(leafImg, rootDesc).(v1.Image)
 		if err := remote.Write(leafRef, leafImg); err != nil {
 			t.Fatal(err)
